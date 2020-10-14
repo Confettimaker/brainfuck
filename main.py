@@ -100,4 +100,7 @@ if r_o_t & 2:
   program.generate(listing[which][5:-3])
 if r_o_t & 1:
   print('\nRunning:\t{}'.format(listing[which]))
-  program.run()
+  try:
+    program.run()
+  except KeyboardInterrupt:
+    print('\n\nQuitting...')
