@@ -1,0 +1,4 @@
+*.out
+parsetab.py
+/py/
+/__pycache__/
